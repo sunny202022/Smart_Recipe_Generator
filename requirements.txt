@@ -11,3 +11,4 @@ sqlAlchemy==2.0.36
 openai==1.52.2 
 configparser
 streamlit
+easyocr
