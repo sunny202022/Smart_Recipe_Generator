@@ -9,5 +9,4 @@ opencv-python==4.5.5.64
 transformers==4.24.0
 sqlAlchemy==2.0.36
 openai==1.52.2 
-hashlib
 configparser
