@@ -10,4 +10,4 @@ transformers==4.24.0
 sqlAlchemy==2.0.36
 openai==1.52.2 
 configparser
-streamlit==1.20.0
+streamlit
