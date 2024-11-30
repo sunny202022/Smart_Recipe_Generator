@@ -21,17 +21,13 @@ import io
 import time
 st.set_page_config(
     page_title="Smart Recipe Generator", page_icon="🍲", layout="wide",)
-# Load the configuration file
-config = configparser.ConfigParser()
-config.read('config.ini')
-
 # Retrieve the OpenAI API key and database credentials from the config file
-api_key = config['api']['openai_api_key']
-db_username = config['database']['db_username']
-db_password = config['database']['db_password']
-db_host = config['database']['db_host']
-db_port = config['database']['db_port']
-db_name = config['database']['db_name']
+api_key = st.secrets['API']['OPENAI_API_KEY']
+db_username = st.secrets['DATABASE']['DB_USERNAME']
+db_password = st.secrets['DATABASE']['DB_PASSWORD']
+db_host = st.secrets['DATABASE']['DB_HOST']
+db_port = st.secrets['DATABASE']['DB_PORT']
+db_name = st.secrets['DATABASE']['DB_NAME']
 
 # Define the PostgreSQL database URL
 DATABASE_URL = f"postgresql://{db_username}:{db_password}@{db_host}:{db_port}/{db_name}"
