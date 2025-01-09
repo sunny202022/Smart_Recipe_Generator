@@ -19,6 +19,7 @@ from PIL import Image
 import base64
 import io
 import time
+import pymysql
 st.set_page_config(
     page_title="Smart Recipe Generator", page_icon="🍲", layout="wide",)
 # Retrieve the OpenAI API key and database credentials from the config file
