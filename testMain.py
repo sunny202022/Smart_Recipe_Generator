@@ -28,9 +28,9 @@ db_password = "Sunny123"
 db_host = st.secrets['DATABASE']['DB_HOST']
 db_port = st.secrets['DATABASE']['DB_PORT']
 db_name = st.secrets['DATABASE']['DB_NAME']
-
+#engine = create_engine("mysql+pymysql://user:pw@host/db", pool_pre_ping=True)
 # Define the PostgreSQL database URL
-DATABASE_URL = f"postgresql://{db_username}:{db_password}@{db_host}:{db_port}/{db_name}"
+DATABASE_URL = f"mysql+pymysql://{db_username}:Sunny123@{db_host}:{db_port}/{db_name}"
 
 # Initialize the database engine
 engine = create_engine(DATABASE_URL)
