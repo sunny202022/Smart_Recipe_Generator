@@ -67,7 +67,7 @@ class User(Base):
 Base.metadata.create_all(engine)
 
                 # Retrieve the model from the config file
-pretrained_model = config['model']['pretrained_model']
+pretrained_model = st.secrets['model']['pretrained_model']
 
 
 def guide():
