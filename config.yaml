@@ -1,1 +1,13 @@
+api:
+  openai_api_key: "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"
+  groq_api_key: "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"
 
+database:
+  db_username: "postgres"
+  db_password: "Sunny%%404274"
+  db_host: "localhost"
+  db_port: 4274
+  db_name: "Smart_Recipe_Generator"
+
+model:
+  pretrained_model: "jazzmacedo/fruits-and-vegetables-detector-36"
