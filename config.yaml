@@ -4,7 +4,7 @@ api:
 
 database:
   db_username: "postgres"
-  db_password: "Sunny%%404274"
+  db_password: "Sunny123"
   db_host: "localhost"
   db_port: 4274
   db_name: "Smart_Recipe_Generator"
