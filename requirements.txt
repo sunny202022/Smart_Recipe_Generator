@@ -1,5 +1,5 @@
 # Requires Python 3.10 or higher
-streamlit==1.20.0
+
 opencv-python==4.6.0.66
 easyocr==1.4.1
 torch==1.13.0
