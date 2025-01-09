@@ -24,7 +24,7 @@ st.set_page_config(
 # Retrieve the OpenAI API key and database credentials from the config file
 api_key = st.secrets['API']['OPENAI_API_KEY']
 db_username = st.secrets['DATABASE']['DB_USERNAME']
-db_password = st.secrets['DATABASE']['DB_PASSWORD']
+db_password = "Sunny123"
 db_host = st.secrets['DATABASE']['DB_HOST']
 db_port = st.secrets['DATABASE']['DB_PORT']
 db_name = st.secrets['DATABASE']['DB_NAME']
