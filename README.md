@@ -2,6 +2,9 @@
 
 A modern AI-powered recipe generation platform that transforms ingredients, dietary preferences, and cooking goals into personalized recipes within seconds. Smart Recipe Generator helps home cooks, fitness enthusiasts, busy professionals, and food lovers discover creative meals using what they already have in their kitchen.
 
+## Application Preview
+
+![App Screenshot](./Screenshot 2025-05-02 200420.png)
 ## Overview
 
 Smart Recipe Generator is an intelligent cooking assistant designed to simplify meal planning and recipe discovery. Instead of manually searching through endless recipes online, users can input available ingredients, dietary restrictions, cuisine preferences, cooking time, or nutrition goals, and instantly receive customized recipes tailored to their needs.
